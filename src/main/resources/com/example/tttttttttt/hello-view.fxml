@@ -1,16 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.Insets?>
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.layout.VBox?>
-
 <?import javafx.scene.control.Button?>
-<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
-      fx:controller="com.example.tttttttttt.HelloController">
-  <padding>
-    <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
-  </padding>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.CubicCurve?>
+<?import javafx.scene.text.Font?>
 
-  <Label fx:id="welcomeText"/>
-  <Button text="Hello!" onAction="#onHelloButtonClick"/>
-</VBox>
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="597.0" prefWidth="780.0" style="-fx-background-color: #DDA0DD;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.tttttttttt.Controller">
+    <children>
+      <CubicCurve controlX1="-205.50650024414062" controlX2="369.4935302734375" controlY1="-395.7758483886719" controlY2="154.057861328125" endX="465.427734375" endY="-493.572265625" fill="#ff21e500" layoutX="327.0" layoutY="517.0" startX="-313.0" startY="130.0" stroke="INDIGO" strokeWidth="3.0" />
+      <CubicCurve controlX1="-205.50650024414062" controlX2="369.4935302734375" controlY1="-395.7758483886719" controlY2="154.057861328125" endX="465.427734375" endY="-493.572265625" fill="#ff21e500" layoutX="337.0" layoutY="527.0" startX="-313.0" startY="130.0" stroke="INDIGO" strokeWidth="3.0" />
+      <CubicCurve controlX1="-205.50650024414062" controlX2="369.4935302734375" controlY1="-395.7758483886719" controlY2="154.057861328125" endX="465.427734375" endY="-493.572265625" fill="#ff21e500" layoutX="347.0" layoutY="537.0" startX="-313.0" startY="130.0" stroke="INDIGO" strokeWidth="3.0" />
+      <CubicCurve controlX1="-205.50650024414062" controlX2="369.4935302734375" controlY1="-395.7758483886719" controlY2="154.057861328125" endX="465.427734375" endY="-493.572265625" fill="#ff21e500" layoutX="357.0" layoutY="547.0" startX="-313.0" startY="130.0" stroke="INDIGO" strokeWidth="3.0" />
+      <CubicCurve controlX1="-205.50650024414062" controlX2="369.4935302734375" controlY1="-395.7758483886719" controlY2="154.057861328125" endX="465.427734375" endY="-493.572265625" fill="#ff21e500" layoutX="367.0" layoutY="557.0" startX="-313.0" startY="130.0" stroke="INDIGO" strokeWidth="3.0" />
+      <CubicCurve controlX1="-205.50650024414062" controlX2="369.4935302734375" controlY1="-395.7758483886719" controlY2="154.057861328125" endX="465.427734375" endY="-493.572265625" fill="#ff21e500" layoutX="377.0" layoutY="567.0" startX="-313.0" startY="130.0" stroke="INDIGO" strokeWidth="3.0" />
+      <CubicCurve controlX1="-205.50650024414062" controlX2="369.4935302734375" controlY1="-395.7758483886719" controlY2="154.057861328125" endX="465.427734375" endY="-493.572265625" fill="#ff21e500" layoutX="387.0" layoutY="577.0" startX="-313.0" startY="130.0" stroke="INDIGO" strokeWidth="3.0" />
+      <CubicCurve controlX1="-205.50650024414062" controlX2="369.4935302734375" controlY1="-395.7758483886719" controlY2="154.057861328125" endX="465.427734375" endY="-493.572265625" fill="#ff21e500" layoutX="397.0" layoutY="587.0" startX="-313.0" startY="130.0" stroke="INDIGO" strokeWidth="3.0" />
+      <CubicCurve controlX1="-205.50650024414062" controlX2="369.4935302734375" controlY1="-395.7758483886719" controlY2="154.057861328125" endX="465.427734375" endY="-493.572265625" fill="#ff21e500" layoutX="411.0" layoutY="597.0" startX="-313.0" startY="130.0" stroke="INDIGO" strokeWidth="3.0" />
+      <CubicCurve controlX1="-205.50650024414062" controlX2="369.4935302734375" controlY1="-395.7758483886719" controlY2="154.057861328125" endX="465.427734375" endY="-493.572265625" fill="#ff21e500" layoutX="417.0" layoutY="607.0" startX="-313.0" startY="130.0" stroke="INDIGO" strokeWidth="3.0" />
+      <CubicCurve controlX1="-205.50650024414062" controlX2="369.4935302734375" controlY1="-395.7758483886719" controlY2="154.057861328125" endX="465.427734375" endY="-493.572265625" fill="#ff21e500" layoutX="427.0" layoutY="617.0" startX="-313.0" startY="130.0" stroke="INDIGO" strokeWidth="3.0" />
+      <CubicCurve controlX1="-205.50650024414062" controlX2="369.4935302734375" controlY1="-395.7758483886719" controlY2="154.057861328125" endX="465.427734375" endY="-493.572265625" fill="#ff21e500" layoutX="437.0" layoutY="627.0" startX="-313.0" startY="130.0" stroke="INDIGO" strokeWidth="3.0" />
+      <CubicCurve controlX1="-205.50650024414062" controlX2="369.4935302734375" controlY1="-395.7758483886719" controlY2="154.057861328125" endX="465.427734375" endY="-493.572265625" fill="#ff21e500" layoutX="447.0" layoutY="637.0" startX="-313.0" startY="130.0" stroke="INDIGO" strokeWidth="3.0" />
+      <CubicCurve controlX1="-205.50650024414062" controlX2="369.4935302734375" controlY1="-395.7758483886719" controlY2="154.057861328125" endX="465.427734375" endY="-493.572265625" fill="#ff21e500" layoutX="287.0" layoutY="477.0" startX="-313.0" startY="130.0" stroke="INDIGO" strokeWidth="3.0" />
+      <CubicCurve controlX1="-205.50650024414062" controlX2="369.4935302734375" controlY1="-395.7758483886719" controlY2="154.057861328125" endX="465.427734375" endY="-493.572265625" fill="#ff21e500" layoutX="297.0" layoutY="487.0" startX="-313.0" startY="130.0" stroke="INDIGO" strokeWidth="3.0" />
+      <CubicCurve controlX1="-205.50650024414062" controlX2="369.4935302734375" controlY1="-395.7758483886719" controlY2="154.057861328125" endX="465.427734375" endY="-493.572265625" fill="#ff21e500" layoutX="307.0" layoutY="497.0" startX="-313.0" startY="130.0" stroke="INDIGO" strokeWidth="3.0" />
+      <CubicCurve controlX1="-205.50650024414062" controlX2="369.4935302734375" controlY1="-395.7758483886719" controlY2="154.057861328125" endX="465.427734375" endY="-493.572265625" fill="#ff21e500" layoutX="317.0" layoutY="507.0" startX="-313.0" startY="130.0" stroke="INDIGO" strokeWidth="3.0" />
+      <CubicCurve controlX1="-205.50650024414062" controlX2="369.4935302734375" controlY1="-395.7758483886719" controlY2="154.057861328125" endX="465.427734375" endY="-493.572265625" fill="#ff21e500" layoutX="467.0" layoutY="657.0" startX="-313.0" startY="130.0" stroke="INDIGO" strokeWidth="3.0" />
+      <CubicCurve controlX1="-205.50650024414062" controlX2="369.4935302734375" controlY1="-395.7758483886719" controlY2="154.057861328125" endX="465.427734375" endY="-493.572265625" fill="#ff21e500" layoutX="457.0" layoutY="647.0" startX="-313.0" startY="130.0" stroke="INDIGO" strokeWidth="3.0" />
+      <CubicCurve controlX1="-205.50650024414062" controlX2="369.4935302734375" controlY1="-395.7758483886719" controlY2="154.057861328125" endX="465.427734375" endY="-493.572265625" fill="#ff21e500" layoutX="477.0" layoutY="667.0" startX="-313.0" startY="130.0" stroke="INDIGO" strokeWidth="3.0" />
+      <CubicCurve controlX1="-205.50650024414062" controlX2="369.4935302734375" controlY1="-395.7758483886719" controlY2="154.057861328125" endX="465.427734375" endY="-493.572265625" fill="#ff21e500" layoutX="487.0" layoutY="677.0" startX="-313.0" startY="130.0" stroke="INDIGO" strokeWidth="3.0" />
+      <CubicCurve controlX1="-205.50650024414062" controlX2="369.4935302734375" controlY1="-395.7758483886719" controlY2="154.057861328125" endX="465.427734375" endY="-493.572265625" fill="#ff21e500" layoutX="497.0" layoutY="687.0" startX="-313.0" startY="130.0" stroke="INDIGO" strokeWidth="3.0" />
+      <CubicCurve controlX1="-205.50650024414062" controlX2="369.4935302734375" controlY1="-395.7758483886719" controlY2="154.057861328125" endX="465.427734375" endY="-493.572265625" fill="#ff21e500" layoutX="507.0" layoutY="697.0" startX="-313.0" startY="130.0" stroke="INDIGO" strokeWidth="3.0" />
+      <CubicCurve controlX1="-205.50650024414062" controlX2="369.4935302734375" controlY1="-395.7758483886719" controlY2="154.057861328125" endX="465.427734375" endY="-493.572265625" fill="#ff21e500" layoutX="517.0" layoutY="707.0" startX="-313.0" startY="130.0" stroke="INDIGO" strokeWidth="3.0" />
+      <CubicCurve controlX1="-205.50650024414062" controlX2="369.4935302734375" controlY1="-395.7758483886719" controlY2="154.057861328125" endX="465.427734375" endY="-493.572265625" fill="#ff21e500" layoutX="527.0" layoutY="717.0" startX="-313.0" startY="130.0" stroke="INDIGO" strokeWidth="3.0" />
+      <CubicCurve controlX1="-205.50650024414062" controlX2="369.4935302734375" controlY1="-395.7758483886719" controlY2="154.057861328125" endX="465.427734375" endY="-493.572265625" fill="#ff21e500" layoutX="537.0" layoutY="727.0" startX="-313.0" startY="130.0" stroke="INDIGO" strokeWidth="3.0" />
+      <CubicCurve controlX1="-205.50650024414062" controlX2="369.4935302734375" controlY1="-395.7758483886719" controlY2="154.057861328125" endX="465.427734375" endY="-493.572265625" fill="#ff21e500" layoutX="547.0" layoutY="737.0" startX="-313.0" startY="130.0" stroke="INDIGO" strokeWidth="3.0" />
+      <CubicCurve controlX1="-205.50650024414062" controlX2="369.4935302734375" controlY1="-395.7758483886719" controlY2="154.057861328125" endX="465.427734375" endY="-493.572265625" fill="#ff21e500" layoutX="557.0" layoutY="747.0" startX="-313.0" startY="130.0" stroke="INDIGO" strokeWidth="3.0" />
+        <!-- Таблица в которую мы будем выводит наш pojo -->
+        <TableView fx:id="tableShop" layoutX="179.0" layoutY="67.0" prefHeight="324.0" prefWidth="589.0">
+            <columns>
+                <!-- Колонки таблицы -->
+                <TableColumn fx:id="nameColumn" prefWidth="150.0" text="Name" />
+                <TableColumn fx:id="dataColumn" prefWidth="150.0" text="Date" />
+                <TableColumn fx:id="numberColumn" prefWidth="150.0" text="Amount" />
+                <TableColumn fx:id="priseColumn" prefWidth="150.0" text="Price" />
+            </columns>
+        </TableView>
+        <Label layoutX="251.0" layoutY="27.0" text="Only Original Shoes" textFill="INDIGO">
+            <font>
+                <Font name="Bodoni MT Black" size="30.0" />
+            </font>
+        </Label>
+      <Button fx:id="addDate" layoutX="9.0" layoutY="250.0" mnemonicParsing="false" onAction="#add" prefHeight="17.0" prefWidth="50.0" text="add" textFill="INDIGO" />
+      <Label layoutX="10.0" layoutY="73.0" text="Name" />
+      <Label layoutX="9.0" layoutY="115.0" text="Date" />
+      <Label layoutX="8.0" layoutY="199.0" text="Price" />
+      <Label layoutX="4.0" layoutY="157.0" text="Amount" />
+      <TextField fx:id="nameV" layoutX="3.0" layoutY="90.0" prefHeight="25.0" prefWidth="161.0" />
+      <TextField fx:id="dateV" layoutX="3.0" layoutY="132.0" prefHeight="25.0" prefWidth="161.0" />
+      <TextField fx:id="numberV" layoutX="3.0" layoutY="174.0" prefHeight="25.0" prefWidth="161.0" />
+      <TextField fx:id="priseV" layoutX="3.0" layoutY="216.0" prefHeight="25.0" prefWidth="161.0" />
+      <TextField fx:id="searchTwxt" layoutX="57.0" layoutY="464.0" prefHeight="25.0" prefWidth="161.0" />
+      <Button fx:id="sortName" layoutX="34.0" layoutY="360.0" mnemonicParsing="false" onAction="#sortNameAction" prefHeight="25.0" prefWidth="99.0" text="sort by name" textFill="INDIGO" />
+      <Button fx:id="sortPrise" layoutX="34.0" layoutY="324.0" mnemonicParsing="false" onAction="#sortPriseAction" prefHeight="25.0" prefWidth="99.0" text="sort by price" textFill="INDIGO" />
+      <Button fx:id="search" layoutX="9.0" layoutY="464.0" mnemonicParsing="false" onAction="#serchAction" text="search" textFill="INDIGO" />
+      <TextField fx:id="sV" layoutX="9.0" layoutY="501.0" prefHeight="70.0" prefWidth="761.0" />
+    </children>
+</AnchorPane>
