@@ -1,0 +1,33 @@
+[ {
+  "name" : "Krosovki Abibas",
+  "data" : "10.10.2021",
+  "number" :  34,
+  "prise" : 52.23
+}, {
+  "name" : "Goloshi Chika",
+  "data" : "02.08.2022",
+  "number" : 56,
+  "prise" : 67.23
+}, {
+  "name" : "Tapki Deuche Cabane",
+  "data" : "10.01.2023",
+  "number" : 46,
+  "prise" : 27.23
+}, {
+  "name" : "Tyfli Gyssi",
+  "data" : "02.09.2021",
+  "number" : 47,
+  "prise" : 49.34
+}, {
+  "name" : "Sapogi Ribak",
+  "data" : "29.02.1999",
+  "number" : 35,
+  "prise" : 38.34
+}, {
+  "name" : "Shlёpki from Shlёpa",
+  "data" : "16.10.2007",
+  "number" : 98,
+  "prise" : 300
+}
+]
+
